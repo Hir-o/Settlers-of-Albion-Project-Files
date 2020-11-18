@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Level -1 - Splash.unity
+    guid: dd0f3489194b450439882fa4f463839a
+  - enabled: 1
+    path: Assets/_Scenes/Level 0 - Menu.unity
+    guid: f495bac661c07b349bde55359a370d3f
+  - enabled: 1
+    path: Assets/_Scenes/Level 1 - Tutorial Level.unity
+    guid: d45ec580c8999b24aa057aa9add0acee
+  - enabled: 1
+    path: Assets/_Scenes/Level 2 - Island.unity
+    guid: 78cd8fa3d45e6e347a701e0c17017817
+  - enabled: 1
+    path: Assets/_Scenes/Level 3 - Battle of Mountain Fort.unity
+    guid: 4d2b70e9ff54eab4b9fc0b381dd76d29
+  - enabled: 1
+    path: Assets/_Scenes/Level 4 - Divided Armies.unity
+    guid: 8505d65a5ca52b7418859faf7cdf0cff
+  - enabled: 1
+    path: Assets/_Scenes/Level 5 - Defense of Helms Deep.unity
+    guid: 472032f9c127c7d448df42c6621cdb0b
+  - enabled: 1
+    path: Assets/_Scenes/Level 6 - Battle of Eastland.unity
+    guid: 73a35e9c5aeedf549a6d5f13ac1162c2
+  - enabled: 1
+    path: Assets/_Scenes/Level 7 - Surrounded.unity
+    guid: 87cbbc15317484a4bb9680f46ba0a8be
+  m_configObjects: {}

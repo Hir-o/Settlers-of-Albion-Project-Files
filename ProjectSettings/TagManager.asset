@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - target
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Tile
+  - Tile/Button
+  - UI/Tooltip
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tiles
+    uniqueID: 3901485493
+    locked: 0
+  - name: Buildings
+    uniqueID: 3477217035
+    locked: 0
+  - name: Units
+    uniqueID: 3605752831
+    locked: 0
+  - name: Units/Status Icons
+    uniqueID: 1434015495
+    locked: 0
+  - name: Resources
+    uniqueID: 3838733329
+    locked: 0
+  - name: UI
+    uniqueID: 1913373645
+    locked: 0

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5551228960577885313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 189793703989223666}
+  - component: {fileID: 4648627996059669765}
+  m_Layer: 0
+  m_Name: '@Audio Controller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &189793703989223666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551228960577885313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4648627996059669765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5551228960577885313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a6578617c198c4dbf38bba61ab666e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  _sfxButtonClick: {fileID: 8300000, guid: 4dcf9b1a402620d49a29cecf4d5aeefb, type: 3}
+  _sfxTileLevelSelect: {fileID: 8300000, guid: ad4f2646e689b4843baf0e58c92eef7e, type: 3}
+  _sfxLevelChoose: {fileID: 8300000, guid: 7006b513b80fd224eb93abd785f69694, type: 3}
+  _sfxMarketBuy: {fileID: 8300000, guid: 53192d55ea48d8d4498e70815e080737, type: 3}
+  _sfxMarketSell: {fileID: 8300000, guid: 135d5a3cd13eba647a7bd5148e6a9775, type: 3}
+  _sfxGameWon: {fileID: 8300000, guid: 549cbb15b9bb9e046942ca7867cdf4a6, type: 3}
+  _sfxGameLose: {fileID: 8300000, guid: 641ee0b2541e5794fadf6376511aab9f, type: 3}
+  _sfxSideQuestComplete: {fileID: 8300000, guid: 2485210ea49fd0047a0893ed8aef6c89,
+    type: 3}
+  _sfxSideQuestFail: {fileID: 8300000, guid: 7dacd998bdc459d4dbd2ac17577c584f, type: 3}
+  _sfxUnitSelect: {fileID: 8300000, guid: 23e04d5cb89fa494e9e5e3dfd3a4fdb2, type: 3}
+  _sfxUnitRecruit: {fileID: 8300000, guid: f8f2aab68098d1348a2f8fc158d1ba33, type: 3}
+  _sfxFormSettlement: {fileID: 8300000, guid: 3de0c7466c4cc1c4991bbf1c7dadc1bf, type: 3}
+  _sfxToggleQuests: {fileID: 8300000, guid: 66141824a7772bd44aea633d0f2aa27b, type: 3}
+  _sfxBuildingUpgrade: {fileID: 8300000, guid: e83c337d30d575d4fb75ba1de0120016, type: 3}
+  _sfxUnitUpgrade: {fileID: 8300000, guid: 5d7003f3183837446a85eb8a8fc3491b, type: 3}
+  _sfxBuildWorkshop: {fileID: 8300000, guid: 1ddbd3968932e6248b7f8a63413d1e5f, type: 3}
+  _sfxArcherAttack: {fileID: 8300000, guid: ff9bf68e65987564d9e843caea85b987, type: 3}
+  _sfxWeaponImpact: {fileID: 8300000, guid: a7d2303a760d9284586f5ed0ed22d838, type: 3}
+  _sfxEndTurn: {fileID: 8300000, guid: e466457d9f4824d46a63d677667f6ffd, type: 3}
+  _sfxFriendlyMeleAttacks:
+  - {fileID: 8300000, guid: 179a044555c50c7488ff96c311690ab6, type: 3}
+  - {fileID: 8300000, guid: 095be38010ea93548acfbcc6da350dbc, type: 3}
+  _sfxEnemyAttacks:
+  - {fileID: 8300000, guid: 767b388ee1dbca34da41be875482db0c, type: 3}
+  - {fileID: 8300000, guid: 96852ab2dbee5d742bf03d6b6de888d8, type: 3}
+  _sfxHammerAttack: {fileID: 8300000, guid: af1b4d69e38585945b724e422032d7bf, type: 3}
+  _sfxSteps:
+  - {fileID: 8300000, guid: 45efadc3b3e4a084eb22e09b602e529f, type: 3}
+  - {fileID: 8300000, guid: 25b7580f2f0a75e4e89449a868967269, type: 3}
+  - {fileID: 8300000, guid: 5cd691ab9cc02a746a8091e53eaab65f, type: 3}
+  - {fileID: 8300000, guid: 752d5ac46b50a83489ea59f9fd9fb043, type: 3}
+  - {fileID: 8300000, guid: 1a55a63ff9f8aa0438c4705a447875e4, type: 3}
+  - {fileID: 8300000, guid: e8c5a6573f919314f9770ee05b247b8a, type: 3}
+  maxUISoundsPlayed: 5
+  maxUnitSelectedSoundsPlayed: 1
+  soundCapResetSpeed: 0.55
